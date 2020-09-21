@@ -2,14 +2,14 @@ import React from "react";
 import Layout from '../components/layout';
 
 
-const Nosotros = () => (
+const IndexPage = () => (
 
   <Layout>
 
-    <h1> Index </h1>
+    <h1> Nosotros </h1>
 
   </Layout>
 
 )
 
-export default Nosotros
+export default IndexPage
