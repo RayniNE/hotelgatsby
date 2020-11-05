@@ -42,13 +42,12 @@ const ImagenHotel = () => {
         image: file(relativePath: {eq: "8.jpg"}) {
           sharp: childImageSharp{
             fluid{
-              ...GatsbyImageSharpFluid_withWebp
+              srcSetWebp
             }
           }
         }
       }
     `);
-
 
     return ( 
 
@@ -60,6 +59,7 @@ const ImagenHotel = () => {
             </TextoImagen>
 
         </ImageBackground>
+
      );
 }
  
